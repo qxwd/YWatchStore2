@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>系统后台</title>
+		<meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
+		<link rel="stylesheet" href="css/uniform.css" />
+		<link rel="stylesheet" href="css/select2.css" />		
+		<link rel="stylesheet" href="css/unicorn.main.css" />
+		<link rel="stylesheet" href="css/unicorn.grey.css" class="skin-color" />	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+	<body>
+		
+		
+		<div id="header">
+			<h1><a href="./dashboard.html">Unicorn Admin</a></h1>		
+		</div>
+		
+		<div id="search">
+			<input type="text" placeholder="Search here..." /><button type="submit" class="tip-right" title="Search"><i class="icon-search icon-white"></i></button>
+		</div>           
+		<div id="sidebar">
+			<a href="#" class="visible-phone"><i class="icon icon-th-list"></i> Tables</a>
+			<ul>
+				<li class="submenu">
+					<a href="#"><i class="icon icon-th-list"></i> <span>用户管理</span> <span class="label">3</span></a>
+					<ul>
+						<li><a href="user-list.html">用户列表</a></li>
+						<li><a href="addadmin.html">新增管理员</a></li>
+						<li ><a href="admin-list.html">管理员列表</a></li>
+					</ul>
+				</li>
+
+				<li class="submenu  active open">
+					<a href="#"><i class="icon icon-th-list"></i> <span>商品类型管理</span> <span class="label">2</span></a>
+					<ul>
+						<li class="active"><a href="newstype-list.html">类型列表</a></li>
+						<li><a href="newstype-add-v.html">新增类型</a></li>
+					</ul>
+				</li>
+
+			<li class="submenu">
+					<a href="#"><i class="icon icon-th-list"></i> <span>订单管理</span> <span class="label">1</span></a>
+					<ul>
+						<li ><a href="order.html">订单列表</a></li>
+					</ul>
+				</li>
+				
+	       <li class="submenu">
+					<a href="#"><i class="icon icon-th-list"></i> <span>评论管理</span> <span class="label">1</span></a>
+					<ul>
+						<li><a href="news-list.html">评论列表</a></li>
+
+					</ul>
+				</li>
+            <li class="submenu">
+					<a href="#"><i class="icon icon-th-list"></i> <span>建议反馈</span> <span class="label">1</span></a>
+					<ul>
+						<li >
+							<a href="advice-list.html">建议列表</a>
+						</li>
+					</ul>
+				</li>
+                <li class="submenu">
+					<a href="#"><i class="icon icon-th-list"></i> <span>商品管理</span> <span class="label">2</span></a>
+					<ul>
+						<li>
+							<a href="queryproducts.html">商品列表</a>
+						</li>
+						<li >
+							<a href="addproducts.html">商品上架</a>
+						</li>
+
+					</ul>
+				</li>
+
+
+			</ul>
+		
+		</div>
+		
+		<div id="style-switcher">
+			<i class="icon-arrow-left icon-white"></i>
+			<span>Style:</span>
+			<a href="#grey" style="background-color: #555555;border-color: #aaaaaa;"></a>
+			<a href="#blue" style="background-color: #2D2F57;"></a>
+			<a href="#red" style="background-color: #673232;"></a>
+		</div>
+		
+		<div id="content">
+			<div id="content-header">
+				<h1>类型列表</h1>
+			</div>
+
+
+			<div id="breadcrumb">
+				<a href="#" class="current">类型列表</a>
+			</div>
+			<div class="container-fluid">
+				<div class="row-fluid">
+					<div class="span12">
+						
+						
+						<div class="widget-box">
+							<div class="widget-title">
+							
+								<h5>商品类型列表</h5>
+							</div>
+							<div class="widget-content nopadding">
+								<table class="table table-bordered data-table">
+									<thead>
+									<tr>
+									<th>类型ID</th>
+									<th>类型名称</th>
+									<th>类型属性</th>
+									<th>操作</th>
+									</tr>
+									</thead>
+									<tbody>
+									<tr class="gradeX">
+									<td>10</td>
+									<td>百世翡丽</td>
+									<td>百达翡丽是一家始于1839年的瑞士著名钟表品牌，世界十大名表之首。是瑞士仅存的真正的独立制表商之一，由头至尾都是自己生产，而训练一名PATEK PHILIPPE(百达翡丽)制表师则需要10年时间。钟表爱好者及贵族的标志是拥有一块百达翡丽表，高贵的艺术境界与昂贵的制作材料塑造了百达翡丽经久不衰的品牌效应。</td>
+									<td class="center"><a>修改</a></td>
+									</tr>
+									<tr class="gradeX">
+									<td>10</td>
+									<td>百世翡丽</td>
+									<td>百达翡丽是一家始于1839年的瑞士著名钟表品牌，世界十大名表之首。是瑞士仅存的真正的独立制表商之一，由头至尾都是自己生产，而训练一名PATEK PHILIPPE(百达翡丽)制表师则需要10年时间。钟表爱好者及贵族的标志是拥有一块百达翡丽表，高贵的艺术境界与昂贵的制作材料塑造了百达翡丽经久不衰的品牌效应。</td>
+									<td class="center"><a>修改</a></td>
+									</tr>
+									<tr class="gradeX">
+									<td>10</td>
+									<td>百世翡丽</td>
+									<td>百达翡丽是一家始于1839年的瑞士著名钟表品牌，世界十大名表之首。是瑞士仅存的真正的独立制表商之一，由头至尾都是自己生产，而训练一名PATEK PHILIPPE(百达翡丽)制表师则需要10年时间。钟表爱好者及贵族的标志是拥有一块百达翡丽表，高贵的艺术境界与昂贵的制作材料塑造了百达翡丽经久不衰的品牌效应。</td>
+									<td class="center"><a>修改</a></td>
+									</tr>
+									<tr class="gradeX">
+									<td>10</td>
+									<td>百世翡丽</td>
+									<td>百达翡丽是一家始于1839年的瑞士著名钟表品牌，世界十大名表之首。是瑞士仅存的真正的独立制表商之一，由头至尾都是自己生产，而训练一名PATEK PHILIPPE(百达翡丽)制表师则需要10年时间。钟表爱好者及贵族的标志是拥有一块百达翡丽表，高贵的艺术境界与昂贵的制作材料塑造了百达翡丽经久不衰的品牌效应。</td>
+									<td class="center"><a>修改</a></td>
+									</tr>
+									<tr class="gradeX">
+									<td>10</td>
+									<td>百世翡丽</td>
+									<td>百达翡丽是一家始于1839年的瑞士著名钟表品牌，世界十大名表之首。是瑞士仅存的真正的独立制表商之一，由头至尾都是自己生产，而训练一名PATEK PHILIPPE(百达翡丽)制表师则需要10年时间。钟表爱好者及贵族的标志是拥有一块百达翡丽表，高贵的艺术境界与昂贵的制作材料塑造了百达翡丽经久不衰的品牌效应。</td>
+									<td class="center"><a>修改</a></td>
+									</tr>
+									<tr class="gradeX">
+									<td>10</td>
+									<td>百世翡丽</td>
+									<td>百达翡丽是一家始于1839年的瑞士著名钟表品牌，世界十大名表之首。是瑞士仅存的真正的独立制表商之一，由头至尾都是自己生产，而训练一名PATEK PHILIPPE(百达翡丽)制表师则需要10年时间。钟表爱好者及贵族的标志是拥有一块百达翡丽表，高贵的艺术境界与昂贵的制作材料塑造了百达翡丽经久不衰的品牌效应。</td>
+									<td class="center"><a>修改</a></td>
+									</tr>
+									<tr class="gradeX">
+									<td>10</td>
+									<td>百世翡丽</td>
+									<td>百达翡丽是一家始于1839年的瑞士著名钟表品牌，世界十大名表之首。是瑞士仅存的真正的独立制表商之一，由头至尾都是自己生产，而训练一名PATEK PHILIPPE(百达翡丽)制表师则需要10年时间。钟表爱好者及贵族的标志是拥有一块百达翡丽表，高贵的艺术境界与昂贵的制作材料塑造了百达翡丽经久不衰的品牌效应。</td>
+									<td class="center"><a>修改</a></td>
+									</tr>
+									<tr class="gradeX">
+									<td>10</td>
+									<td>百世翡丽</td>
+									<td>百达翡丽是一家始于1839年的瑞士著名钟表品牌，世界十大名表之首。是瑞士仅存的真正的独立制表商之一，由头至尾都是自己生产，而训练一名PATEK PHILIPPE(百达翡丽)制表师则需要10年时间。钟表爱好者及贵族的标志是拥有一块百达翡丽表，高贵的艺术境界与昂贵的制作材料塑造了百达翡丽经久不衰的品牌效应。</td>
+									<td class="center"><a>修改</a></td>
+									</tr>
+									<tr class="gradeX">
+									<td>10</td>
+									<td>百世翡丽</td>
+									<td>百达翡丽是一家始于1839年的瑞士著名钟表品牌，世界十大名表之首。是瑞士仅存的真正的独立制表商之一，由头至尾都是自己生产，而训练一名PATEK PHILIPPE(百达翡丽)制表师则需要10年时间。钟表爱好者及贵族的标志是拥有一块百达翡丽表，高贵的艺术境界与昂贵的制作材料塑造了百达翡丽经久不衰的品牌效应。</td>
+									<td class="center"><a>修改</a></td>
+									</tr>
+									<tr class="gradeX">
+									<td>10</td>
+									<td>百世翡丽</td>
+									<td>百达翡丽是一家始于1839年的瑞士著名钟表品牌，世界十大名表之首。是瑞士仅存的真正的独立制表商之一，由头至尾都是自己生产，而训练一名PATEK PHILIPPE(百达翡丽)制表师则需要10年时间。钟表爱好者及贵族的标志是拥有一块百达翡丽表，高贵的艺术境界与昂贵的制作材料塑造了百达翡丽经久不衰的品牌效应。</td>
+									<td class="center"><a>修改</a></td>
+									</tr>
+									<tr class="gradeX">
+									<td>10</td>
+									<td>百世翡丽</td>
+									<td>百达翡丽是一家始于1839年的瑞士著名钟表品牌，世界十大名表之首。是瑞士仅存的真正的独立制表商之一，由头至尾都是自己生产，而训练一名PATEK PHILIPPE(百达翡丽)制表师则需要10年时间。钟表爱好者及贵族的标志是拥有一块百达翡丽表，高贵的艺术境界与昂贵的制作材料塑造了百达翡丽经久不衰的品牌效应。</td>
+									<td class="center"><a>修改</a></td>
+									</tr>
+									<tr class="gradeX">
+									<td>10</td>
+									<td>百世翡丽</td>
+									<td>百达翡丽是一家始于1839年的瑞士著名钟表品牌，世界十大名表之首。是瑞士仅存的真正的独立制表商之一，由头至尾都是自己生产，而训练一名PATEK PHILIPPE(百达翡丽)制表师则需要10年时间。钟表爱好者及贵族的标志是拥有一块百达翡丽表，高贵的艺术境界与昂贵的制作材料塑造了百达翡丽经久不衰的品牌效应。</td>
+									<td class="center"><a>修改</a></td>
+									</tr>
+									<tr class="gradeX">
+									<td>10</td>
+									<td>百世翡丽</td>
+									<td>百达翡丽是一家始于1839年的瑞士著名钟表品牌，世界十大名表之首。是瑞士仅存的真正的独立制表商之一，由头至尾都是自己生产，而训练一名PATEK PHILIPPE(百达翡丽)制表师则需要10年时间。钟表爱好者及贵族的标志是拥有一块百达翡丽表，高贵的艺术境界与昂贵的制作材料塑造了百达翡丽经久不衰的品牌效应。</td>
+									<td class="center"><a>修改</a></td>
+									</tr>
+									<tr class="gradeX">
+									<td>10</td>
+									<td>百世翡丽</td>
+									<td>百达翡丽是一家始于1839年的瑞士著名钟表品牌，世界十大名表之首。是瑞士仅存的真正的独立制表商之一，由头至尾都是自己生产，而训练一名PATEK PHILIPPE(百达翡丽)制表师则需要10年时间。钟表爱好者及贵族的标志是拥有一块百达翡丽表，高贵的艺术境界与昂贵的制作材料塑造了百达翡丽经久不衰的品牌效应。</td>
+									<td class="center"><a>修改</a></td>
+									</tr>
+									<tr class="gradeX">
+									<td>10</td>
+									<td>百世翡丽</td>
+									<td>百达翡丽是一家始于1839年的瑞士著名钟表品牌，世界十大名表之首。是瑞士仅存的真正的独立制表商之一，由头至尾都是自己生产，而训练一名PATEK PHILIPPE(百达翡丽)制表师则需要10年时间。钟表爱好者及贵族的标志是拥有一块百达翡丽表，高贵的艺术境界与昂贵的制作材料塑造了百达翡丽经久不衰的品牌效应。</td>
+									<td class="center"><a>修改</a></td>
+									</tr>
+									<tr class="gradeX">
+									<td>10</td>
+									<td>百世翡丽</td>
+									<td>百达翡丽是一家始于1839年的瑞士著名钟表品牌，世界十大名表之首。是瑞士仅存的真正的独立制表商之一，由头至尾都是自己生产，而训练一名PATEK PHILIPPE(百达翡丽)制表师则需要10年时间。钟表爱好者及贵族的标志是拥有一块百达翡丽表，高贵的艺术境界与昂贵的制作材料塑造了百达翡丽经久不衰的品牌效应。</td>
+									<td class="center"><a>修改</a></td>
+									</tr>
+									<tr class="gradeX">
+									<td>10</td>
+									<td>百世翡丽</td>
+									<td>百达翡丽是一家始于1839年的瑞士著名钟表品牌，世界十大名表之首。是瑞士仅存的真正的独立制表商之一，由头至尾都是自己生产，而训练一名PATEK PHILIPPE(百达翡丽)制表师则需要10年时间。钟表爱好者及贵族的标志是拥有一块百达翡丽表，高贵的艺术境界与昂贵的制作材料塑造了百达翡丽经久不衰的品牌效应。</td>
+									<td class="center"><a>修改</a></td>
+									</tr>
+									<tr class="gradeX">
+									<td>10</td>
+									<td>百世翡丽</td>
+									<td>百达翡丽是一家始于1839年的瑞士著名钟表品牌，世界十大名表之首。是瑞士仅存的真正的独立制表商之一，由头至尾都是自己生产，而训练一名PATEK PHILIPPE(百达翡丽)制表师则需要10年时间。钟表爱好者及贵族的标志是拥有一块百达翡丽表，高贵的艺术境界与昂贵的制作材料塑造了百达翡丽经久不衰的品牌效应。</td>
+									<td class="center"><a>修改</a></td>
+									</tr>
+									<tr class="gradeX">
+									<td>10</td>
+									<td>百世翡丽</td>
+									<td>百达翡丽是一家始于1839年的瑞士著名钟表品牌，世界十大名表之首。是瑞士仅存的真正的独立制表商之一，由头至尾都是自己生产，而训练一名PATEK PHILIPPE(百达翡丽)制表师则需要10年时间。钟表爱好者及贵族的标志是拥有一块百达翡丽表，高贵的艺术境界与昂贵的制作材料塑造了百达翡丽经久不衰的品牌效应。</td>
+									<td class="center"><a>修改</a></td>
+									</tr>
+									<tr class="gradeX">
+									<td>10</td>
+									<td>百世翡丽</td>
+									<td>百达翡丽是一家始于1839年的瑞士著名钟表品牌，世界十大名表之首。是瑞士仅存的真正的独立制表商之一，由头至尾都是自己生产，而训练一名PATEK PHILIPPE(百达翡丽)制表师则需要10年时间。钟表爱好者及贵族的标志是拥有一块百达翡丽表，高贵的艺术境界与昂贵的制作材料塑造了百达翡丽经久不衰的品牌效应。</td>
+									<td class="center"><a>修改</a></td>
+									</tr>
+									<tr class="gradeX">
+									<td>10</td>
+									<td>百世翡丽</td>
+									<td>百达翡丽是一家始于1839年的瑞士著名钟表品牌，世界十大名表之首。是瑞士仅存的真正的独立制表商之一，由头至尾都是自己生产，而训练一名PATEK PHILIPPE(百达翡丽)制表师则需要10年时间。钟表爱好者及贵族的标志是拥有一块百达翡丽表，高贵的艺术境界与昂贵的制作材料塑造了百达翡丽经久不衰的品牌效应。</td>
+									<td class="center"><a>修改</a></td>
+									</tr>
+									
+									</tbody>
+									</table>  
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row-fluid">
+					<div id="footer" class="span12">
+						 版权所有 &copy; 2008-2080  亚太科技集团  闽ICP备14019087号
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+            
+            <script src="js/jquery.min.js"></script>
+            <script src="js/jquery.ui.custom.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/jquery.uniform.js"></script>
+            <script src="js/select2.min.js"></script>
+            <script src="js/jquery.dataTables.min.js"></script>
+            <script src="js/unicorn.js"></script>
+            <script src="js/unicorn.tables.js"></script>
+	</body>
+</html>
